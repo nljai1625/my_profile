@@ -1,0 +1,66 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(220,220,220);
+}
+
+h1, h2 {
+	font-family: 'Fjalla One', serif;
+}
+
+h1 {
+	color: #0f4c75;
+}
+h2 {
+	color: #3282b8;
+}
+
+.btn-orange {
+	text-decoration: none;
+	font-weight: bold;
+	color:#ffffff;
+	background-color: #f39233;
+	border-radius: 8px;
+	padding: 15px;
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.btn-orange:hover {
+	opacity: 0.7;
+}
+
+.container {
+	width:600px;
+	margin: 0px auto;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+	margin-top: 0px auto;
+	margin-bottom: 5px auto;
+}
+
+.list-inline li {
+	display: inline-block;
+}
+
+.social-icon {
+	color: #14274e;
+	font-size: 40px;
+	padding: 4px;
+}
